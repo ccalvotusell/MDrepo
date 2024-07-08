@@ -1,0 +1,13 @@
+For dependency issues, try to create a new environment:
+
+conda env create -f environment_py27.yml
+
+conda activate py27_pcs
+
+##IDK why, it should be fine with creating the envirnment with the yml, but I had trouble installing pyEMMA, so you might have to install pyemma again as well 
+
+conda install pyemma
+
+
+and hopefully we are good to go
+
